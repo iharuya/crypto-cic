@@ -11,11 +11,22 @@
 		"fix:unsafe": "biome check --write --unsafe --verbose ."
 	},
 	"dependencies": {
+		"@radix-ui/react-label": "^2.1.0",
+		"@radix-ui/react-slider": "^1.2.1",
+		"@radix-ui/react-toggle": "^1.1.0",
+		"@radix-ui/react-toggle-group": "^1.1.0",
+		"class-variance-authority": "^0.7.0",
+		"clsx": "^2.1.1",
+		"lucide-react": "^0.459.0",
 		"react": "^18.3.1",
-		"react-dom": "^18.3.1"
+		"react-dom": "^18.3.1",
+		"recharts": "^2.13.3",
+		"tailwind-merge": "^2.5.4",
+		"tailwindcss-animate": "^1.0.7"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
+		"@types/node": "^22.9.0",
 		"@types/react": "^18.3.12",
 		"@types/react-dom": "^18.3.1",
 		"@vitejs/plugin-react-swc": "^3.7.1",
